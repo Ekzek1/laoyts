@@ -1,0 +1,43 @@
+.cards__body{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 60px;
+  padding: 50px;
+}
+
+.cards__item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(245, 245, 245);
+  gap: 10px;
+  padding: 10px;
+  width: calc(33.33333% - 60px);
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.cards__img{
+  max-width: 200px;
+  overflow: hidden;
+}
+
+.cards__title{
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.cards__color{
+  font-size: 14px;
+}
+
+.cards__price{
+  color: red;
+}
+
+.cards__add{
+  display: flex;
+  gap: 70px;
+  align-items: center;
+}
